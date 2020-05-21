@@ -1,1 +1,1 @@
-export const BASE_URL = "https://cars-api-rails-backend.herokuapp.com/api/v1"
+export const BASE_URL = "https://rails-api-cars-backend.herokuapp.com/api/v1"
