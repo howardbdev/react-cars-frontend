@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.CarsContainer, .NavBar {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.ReviewsContainer {
+  margin: 8px;
+  padding: 5px;
+  border-radius: 4px;
+  border-color: darkgray;
+  border-style: solid;
+  border-width: 1px;
+  max-width: 500px;
+}
+
+.Car, .SideBar, .NewCar, .NewReview, .Review {
+  margin: 4px;
+  padding: 4px;
+  border-radius: 3px;
+  border-color: darkgray;
+  border-style: solid;
+  box-shadow: 4px 4px lightsteelblue;
+  border-width: 1px;
+  min-width: 200px;
+}
+
+.SideBar {
+  display: flex;
+  flex-direction: column
+}
+
+a:hover {
+  text-shadow: 1px 1px darkgray;
+  cursor: pointer;
+  color: lightgreen;
+}
+
+button, .NavBar > a, .edit-car-link {
+  box-shadow: 1px 1px lightsteelblue;
+  border-radius: 4px;
+  border-color: navy;
+  border-style: solid;
+  border-width: 1px;
+  margin: 10px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px lightsteelblue;
+  border-radius: 4px;
+  border-color: gold;
+  color: white;
+  border-style: solid;
+  background-color: navy
+}
+
+.StarRating:hover {
+  cursor: pointer;
+}
+
+input, textarea {
+  margin: 2px
+}
